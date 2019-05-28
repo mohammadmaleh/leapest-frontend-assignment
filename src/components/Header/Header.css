@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%; }
+  .header .language-code {
+    text-transform: capitalize; }
+  .header .change-language-button {
+    width: 70px;
+    height: 35px; }
+    .header .change-language-button span {
+      font-size: 16px;
+      font-weight: bold; }
+
+/*# sourceMappingURL=Header.css.map */

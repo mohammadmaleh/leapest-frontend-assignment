@@ -1,0 +1,68 @@
+export default [
+  {
+    languageCode: "En",
+    aToz: "A-Z",
+    startRate: "Start Rate",
+    rate: "rate",
+    sendOffer: "Send Offer",
+    rating: "Rating",
+    reviews: "Reviews",
+    deliveries: "Deliveries",
+    proposeNewDailyRate: "Propose new Daily Rate",
+    travelAndExpenses: "Travel & Expenses",
+    proposeNewTE: "Propose new T&E",
+    contactEmail: "Contact e-mail",
+    lorem:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.",
+    languageOfDelivery: "Language of Delivery",
+    additionalComments: "Additional comments to Buyer Name's",
+    cancel: "Cancel",
+    successOffer: "Your Offer has been Successfully sent",
+    newOffer: "New Offer",
+    selectLanguage: "Select Language"
+  },
+  {
+    languageCode: "Tr",
+    aToz: "A-Z",
+    startRate: "Başlangıç oranı",
+    rate: "Oran",
+    sendOffer: "Teklif Gönder",
+    rating: "değerlendirme",
+    reviews: "Yorumlar",
+    deliveries: "teslimatlar",
+    proposeNewDailyRate: "Yeni Günlük Ücret öner",
+    travelAndExpenses: "Seyahat & Giderler",
+    proposeNewTE: "Yeni T&E öner",
+    contactEmail: "İletişim E-posta",
+    lorem:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.",
+    languageOfDelivery: "Teslimatın Dili",
+    additionalComments: "Alıcı Adı için ek yorumlar",
+    cancel: "Iptal",
+    successOffer: "Teklifiniz başarıyla gönderildi",
+    newOffer: "Yeni Teklif",
+    selectLanguage: "Dil Sec"
+  },
+  {
+    languageCode: "De",
+    aToz: "A-Z",
+    startRate: "Start Rate",
+    rate: "tarief",
+    sendOffer: "Aanbieding verzenden",
+    rating: "Beoordeling",
+    reviews: "Beoordelingen",
+    deliveries: "leveringen",
+    proposeNewDailyRate: "Stel een nieuw dagtarief voor",
+    travelAndExpenses: "Reis en kosten",
+    proposeNewTE: "Voorstellen van nieuwe T & E",
+    contactEmail: "Contact email",
+    lorem:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.  Aliquam erat volutpat. Donec placerat nisl magna, et faucibus arcu condimentum sed.",
+    languageOfDelivery: "Taal van levering",
+    additionalComments: "Aanvullende opmerkingen voor de naam van de koper",
+    cancel: "Annuleren",
+    successOffer: "Uw aanbieding is succesvol verzonden",
+    newOffer: "Nieuwe aanbieding",
+    selectLanguage: "Selecteer taal"
+  }
+];

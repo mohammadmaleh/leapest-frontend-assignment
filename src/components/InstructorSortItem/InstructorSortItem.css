@@ -1,0 +1,15 @@
+.instructor-sort-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px; }
+  .instructor-sort-item .sort-text {
+    font-size: 14px;
+    color: #9ca4a6;
+    text-decoration: none solid #9ca4a6; }
+    .instructor-sort-item .sort-text.active {
+      color: #394042;
+      text-decoration: none solid #394042; }
+
+/*# sourceMappingURL=InstructorSortItem.css.map */

@@ -1,0 +1,57 @@
+@import "../../common/styles/variables";
+.details {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  .back-button-container {
+    text-decoration: none;
+    width: 660px;
+
+    p {
+      font-size: 12px;
+      color: $SUPPORTING_OPTIONAL_TEXT_COLOR;
+      text-decoration: none solid rgb(156, 164, 166);
+      margin-bottom: 7px;
+    }
+  }
+  .instructor-details-item {
+    padding: 20px;
+    width: 660px;
+    height: auto;
+    border-radius: 3px;
+    background-color: #ffffff;
+    background-size: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    .instructor-footer {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      padding-top: 17px;
+      width: 100%;
+      .send-offer {
+        min-width: 120px;
+        height: 40px;
+        padding: 0px 15px;
+        border-radius: 4px;
+        background-color: $PRIMARY_COLOR;
+        background-size: cover;
+        font-family: Open Sans;
+        font-size: 16px;
+        color: $WHITE_COLOR;
+        text-decoration: none solid rgb(255, 255, 255);
+        text-align: center;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .back-button-container,
+    .instructor-details-item {
+      width: 400px;
+    }
+  }
+}

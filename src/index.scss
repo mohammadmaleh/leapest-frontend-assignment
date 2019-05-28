@@ -1,0 +1,9 @@
+@import "./common/styles/variables";
+.ant-modal-header {
+  border: none;
+  .ant-modal-title {
+    font-size: 24px;
+    color: $PRIMARY_TEXT_COLOR;
+    text-decoration: none solid rgb(57, 64, 66);
+  }
+}

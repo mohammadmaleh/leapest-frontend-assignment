@@ -1,0 +1,25 @@
+@import "../../common/styles/variables";
+.instructor-sort-item {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+  .sort-text {
+    font-size: 14px;
+    color: $SUPPORTING_TEXT_COLOR;
+    margin: 0 5px 0 0;
+    text-decoration: none solid rgb(156, 164, 166);
+    &.active {
+      color: $PRIMARY_TEXT_COLOR;
+      text-decoration: none solid rgb(57, 64, 66);
+    }
+  }
+  .sort-icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

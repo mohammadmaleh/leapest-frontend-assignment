@@ -1,0 +1,19 @@
+
+@import "../../common/styles/variables";
+.search-bar{
+  padding: 10px;
+
+  .search-input{
+    height: 40px;
+  }
+  .filters-container{
+    background-color: $WHITE_COLOR;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+  }
+
+}

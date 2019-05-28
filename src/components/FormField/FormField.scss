@@ -1,0 +1,18 @@
+@import "../../common/styles/variables";
+
+.form-item-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 145px;
+  label {
+    font-size: 16px;
+    color: $PRIMARY_TEXT_COLOR;
+    text-decoration: none solid rgb(57, 64, 66);
+  }
+  .form-description {
+    margin: 0;
+    font-size: 14px;
+    color: $SUPPORTING_TEXT_COLOR;
+    text-decoration: none solid rgb(156, 164, 166);
+  }
+}

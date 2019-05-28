@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,qBAAqB;EACnB,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EAAC,cAAc,EAAE,GAAG;EAAE,eAAe,EAAE,aAAa;EAClE,MAAM,EAAE,MAAM;EACb,gCAAU;IACR,SAAS,EAAE,IAAI;IAEf,KAAK,ECFgB,OAAO;IDG5B,eAAe,EAAE,kBAA6B;IAC9C,uCAAQ;MACN,KAAK,ECFW,OAAO;MDGvB,eAAe,EAAE,kBAA0B",
+"sources": ["InstructorSortItem.scss","../../common/styles/variables.scss"],
+"names": [],
+"file": "InstructorSortItem.css"
+}

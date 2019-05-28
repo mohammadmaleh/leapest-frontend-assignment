@@ -1,0 +1,14 @@
+.search-bar {
+  padding: 10px; }
+  .search-bar .search-input {
+    height: 40px; }
+  .search-bar .filters-container {
+    background-color: #ffffff;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px; }
+
+/*# sourceMappingURL=SearchBar.css.map */
