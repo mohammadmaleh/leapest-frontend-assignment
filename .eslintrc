@@ -17,5 +17,5 @@
     "indent": "off",
     "no-trailing-spaces": "off",
     "prettier/prettier": "error"
-  },
+  }
 }
